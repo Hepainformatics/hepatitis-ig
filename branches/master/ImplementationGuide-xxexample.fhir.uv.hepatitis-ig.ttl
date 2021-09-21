@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "National Hepatitis Program Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-21T00:30:45+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-21T00:34:12+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "UP Manila Hepainformatics Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
