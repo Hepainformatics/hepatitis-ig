@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.myig",
+  "id": "xxexample.fhir.uv.hepatitis-ig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>hepatitis-ig</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,.</p>\n</div></div>"
   },
   "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
   "version": "0.1.0-test",
-  "name": "XXYourComputableMyIGNameHere",
-  "title": "xxYour User Friendly Name for MyIG Here",
+  "name": "hepatitis-ig",
+  "title": "National Hepatitis Program Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-09-20T12:53:25+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2021-09-21T00:30:45+00:00",
+  "publisher": "UP Manila Hepainformatics Group",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://xxhl7.org/Special/committees/[something]"
+          "value": "http://link.to.hepainformatics.website"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,. ",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "xxexample.fhir.uv.myig",
+  "packageId": "hepainformatics.fhir.hepatitis-ig",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -335,7 +335,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "Hepatitis IG Home Page",
           "generation": "html"
         },
         {

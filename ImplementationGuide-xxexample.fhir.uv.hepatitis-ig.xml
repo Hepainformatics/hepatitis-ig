@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="xxexample.fhir.uv.myig"/>
+  <id value="xxexample.fhir.uv.hepatitis-ig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>hepatitis-ig</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,.</p>
 </div></div>
   </text>
   <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
   <version value="0.1.0-test"/>
-  <name value="XXYourComputableMyIGNameHere"/>
-  <title value="xxYour User Friendly Name for MyIG Here"/>
+  <name value="hepatitis-ig"/>
+  <title value="National Hepatitis Program Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-09-20T12:53:25+00:00"/>
-  <publisher value="xxxYour Work Group"/>
+  <date value="2021-09-21T00:30:45+00:00"/>
+  <publisher value="UP Manila Hepainformatics Group"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://xxhl7.org/Special/committees/[something]"/>
+      <value value="http://link.to.hepainformatics.website"/>
     </telecom>
   </contact>
-  <description value="xxxA brief description of what this IG is about "/>
+  <description value="This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,. "/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="xxexample.fhir.uv.myig"/>
+  <packageId value="hepainformatics.fhir.hepatitis-ig"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -213,7 +213,7 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="MyIG Home Page"/>
+        <title value="Hepatitis IG Home Page"/>
         <generation value="html"/>
       </page>
       <page>
