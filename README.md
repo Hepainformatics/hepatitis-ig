@@ -1,6 +1,6 @@
-Empty IG
+Hepatitis IG
 ---
-This is an empty IG
+This is the implementation guide (draft) for the national hepatitis program of the Philippines.
 <br> </br>
 ###
 ### Publication
