@@ -3,7 +3,7 @@
 
 err = 4, warn = 2, info = 0
 IG Publisher Version: 1.1.80
-Generated Tue Sep 21 00:30:53 UTC 2021. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Tue Sep 21 00:34:19 UTC 2021. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
 
  Build Errors : 0 / 1 / 0
  /github/workspace/input/myig : 4 / 1 / 1
