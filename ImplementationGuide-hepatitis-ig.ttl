@@ -5,30 +5,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.hepatitis-ig> a fhir:ImplementationGuide;
+<http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "xxexample.fhir.uv.hepatitis-ig"];
+  fhir:Resource.id [ fhir:value "hepatitis-ig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>hepatitis-ig</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HepatitisIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig</pre><div><p>This Implementation Guide contains the consensus of hepatitis experts in the Philippines with  the support of the Philippine Departent of Health.</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"];
+  fhir:ImplementationGuide.url [ fhir:value "http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0-test"];
-  fhir:ImplementationGuide.name [ fhir:value "hepatitis-ig"];
-  fhir:ImplementationGuide.title [ fhir:value "National Hepatitis Program Implementation Guide"];
+  fhir:ImplementationGuide.name [ fhir:value "HepatitisIG"];
+  fhir:ImplementationGuide.title [ fhir:value "Hepatitis B and C Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-21T00:34:12+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "UP Manila Hepainformatics Group"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-25T01:40:41+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "Hepainformatics"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://link.to.hepainformatics.website" ]
+       fhir:ContactPoint.value [ fhir:value "http://hepainformatics.hepafhir.org" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,. "];
+  fhir:ImplementationGuide.description [ fhir:value "This Implementation Guide contains the consensus of hepatitis experts in the Philippines with  the support of the Philippine Departent of Health."];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -185,7 +185,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://xxsomewhere.org/fhir/myig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://hepainformatics.org/fhir/hepatitis-ig/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -321,7 +321,7 @@
        ], [
          fhir:index 1;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "IG Change History" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Hepatitis IG Change History" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ]
      ];
@@ -394,7 +394,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.hepatitis-ig.ttl> a owl:Ontology;
+<http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

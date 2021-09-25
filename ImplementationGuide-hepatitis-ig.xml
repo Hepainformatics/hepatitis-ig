@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="xxexample.fhir.uv.hepatitis-ig"/>
+  <id value="hepatitis-ig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>hepatitis-ig</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HepatitisIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig</pre><div><p>This Implementation Guide contains the consensus of hepatitis experts in the Philippines with  the support of the Philippine Departent of Health.</p>
 </div></div>
   </text>
-  <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
+  <url value="http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig"/>
   <version value="0.1.0-test"/>
-  <name value="hepatitis-ig"/>
-  <title value="National Hepatitis Program Implementation Guide"/>
+  <name value="HepatitisIG"/>
+  <title value="Hepatitis B and C Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-09-21T00:34:12+00:00"/>
-  <publisher value="UP Manila Hepainformatics Group"/>
+  <date value="2021-09-25T01:40:41+00:00"/>
+  <publisher value="Hepainformatics"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://link.to.hepainformatics.website"/>
+      <value value="http://hepainformatics.hepafhir.org"/>
     </telecom>
   </contact>
-  <description value="This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,. "/>
+  <description value="This Implementation Guide contains the consensus of hepatitis experts in the Philippines with  the support of the Philippine Departent of Health."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://xxsomewhere.org/fhir/myig/history.html"/>
+        <valueString value="http://hepainformatics.org/fhir/hepatitis-ig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -218,7 +218,7 @@
       </page>
       <page>
         <nameUrl value="changes.html"/>
-        <title value="IG Change History"/>
+        <title value="Hepatitis IG Change History"/>
         <generation value="html"/>
       </page>
     </page>

@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.hepatitis-ig",
+  "id": "hepatitis-ig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>hepatitis-ig</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HepatitisIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig</pre><div><p>This Implementation Guide contains the consensus of hepatitis experts in the Philippines with  the support of the Philippine Departent of Health.</p>\n</div></div>"
   },
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+  "url": "http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig",
   "version": "0.1.0-test",
-  "name": "hepatitis-ig",
-  "title": "National Hepatitis Program Implementation Guide",
+  "name": "HepatitisIG",
+  "title": "Hepatitis B and C Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-09-21T00:34:12+00:00",
-  "publisher": "UP Manila Hepainformatics Group",
+  "date": "2021-09-25T01:40:41+00:00",
+  "publisher": "Hepainformatics",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://link.to.hepainformatics.website"
+          "value": "http://hepainformatics.hepafhir.org"
         }
       ]
     }
   ],
-  "description": "This is an implementation guide for hepatitis B and C surveillance in the Philippines. It conforms to the National Hepatitis Progra,. ",
+  "description": "This Implementation Guide contains the consensus of hepatitis experts in the Philippines with  the support of the Philippine Departent of Health.",
   "jurisdiction": [
     {
       "coding": [
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://xxsomewhere.org/fhir/myig/history.html"
+            "valueString": "http://hepainformatics.org/fhir/hepatitis-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -340,7 +340,7 @@
         },
         {
           "nameUrl": "changes.html",
-          "title": "IG Change History",
+          "title": "Hepatitis IG Change History",
           "generation": "html"
         }
       ]
