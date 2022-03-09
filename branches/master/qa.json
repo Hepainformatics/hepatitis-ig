@@ -3,10 +3,10 @@
   "name": "HepatitisIG",
   "package-id": "hepainformatics.fhir.hepatitis-ig",
   "ig-ver": "0.1.0-test",
-  "date": "Sat, 25 Sep, 2021 01:40:41 +0000",
-  "errs": 1,
-  "warnings": 1,
+  "date": "Wed, 09 Mar, 2022 11:22:06 +0000",
+  "errs": 9,
+  "warnings": 5,
   "hints": 0,
   "version": "4.0.1",
-  "tool": "4.6.0 (3)"
+  "tool": "5.0.0-snapshot1 (3)"
 }

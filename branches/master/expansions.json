@@ -1,8 +1,154 @@
 {
   "resourceType" : "Bundle",
-  "id" : "7c13d9ce-992d-40bb-9cd4-5b857755d6f7",
+  "id" : "278981ac-f1e1-4317-888b-ae438f564ff8",
   "meta" : {
-    "lastUpdated" : "2021-09-25T01:40:41.848+00:00"
+    "lastUpdated" : "2022-03-09T11:22:06.178+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hepatitis-condition-status-trend-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260415000\"> </a><a href=\"http://snomed.info/id/260415000\">260415000</a></td><td>Not detected (qualifier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-268910001\"> </a><a href=\"http://snomed.info/id/268910001\">268910001</a></td><td>Patient condition improved (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-359746009\"> </a><a href=\"http://snomed.info/id/359746009\">359746009</a></td><td>Patient's condition stable (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271299001\"> </a><a href=\"http://snomed.info/id/271299001\">271299001</a></td><td>Patient's condition worsened (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-709137006\"> </a><a href=\"http://snomed.info/id/709137006\">709137006</a></td><td>Patient condition undetermined (finding)</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs",
+      "version" : "0.1.0-test",
+      "name" : "HepatitisConditionStatusTrendVS",
+      "title" : "Condition Status Trend Value Set",
+      "status" : "active",
+      "date" : "2022-03-09T11:22:06+00:00",
+      "publisher" : "Hepainformatics",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hepainformatics.hepafhir.org"
+        }]
+      }],
+      "description" : "How patient's given disease, condition, or ability is trending.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:3407fea4-100e-4e66-9678-3ce46116b1c5",
+        "timestamp" : "2022-03-09T11:22:16+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "260415000",
+          "display" : "Not detected (qualifier)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "268910001",
+          "display" : "Patient condition improved (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "359746009",
+          "display" : "Patient's condition stable (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "271299001",
+          "display" : "Patient's condition worsened (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "709137006",
+          "display" : "Patient condition undetermined (finding)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hepatitis-disease-status-evidence-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-363679005\"> </a><a href=\"http://snomed.info/id/363679005\">363679005</a></td><td>Imaging (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-252416005\"> </a><a href=\"http://snomed.info/id/252416005\">252416005</a></td><td>Histopathology test (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-711015009\"> </a><a href=\"http://snomed.info/id/711015009\">711015009</a></td><td>Assessment of symptom control (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-5880005\"> </a><a href=\"http://snomed.info/id/5880005\">5880005</a></td><td>Physical examination procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386344002\"> </a><a href=\"http://snomed.info/id/386344002\">386344002</a></td><td>Laboratory data interpretation (procedure)</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs",
+      "version" : "0.1.0-test",
+      "name" : "HepatitisDiseaseStatusEvidenceTypeVS",
+      "title" : "hepainformatics Disease Status Evidence Type Value Set",
+      "status" : "active",
+      "date" : "2022-03-09T11:22:06+00:00",
+      "publisher" : "Hepainformatics",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hepainformatics.hepafhir.org"
+        }]
+      }],
+      "description" : "The type of evidence backing up the clinical determination of hepatitis progression.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:58e721d8-4e8e-4822-983e-c57593ddddab",
+        "timestamp" : "2022-03-09T11:22:19+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "363679005",
+          "display" : "Imaging (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "252416005",
+          "display" : "Histopathology test (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "711015009",
+          "display" : "Assessment of symptom control (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "5880005",
+          "display" : "Physical examination procedure (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "386344002",
+          "display" : "Laboratory data interpretation (procedure)"
+        }]
+      }
+    }
+  }]
 }

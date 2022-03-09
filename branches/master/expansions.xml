@@ -1,9 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="7c13d9ce-992d-40bb-9cd4-5b857755d6f7"/>
+  <id value="278981ac-f1e1-4317-888b-ae438f564ff8"/>
   <meta>
-    <lastUpdated value="2021-09-25T01:40:41.848+00:00"/>
+    <lastUpdated value="2022-03-09T11:22:06.178+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="hepatitis-condition-status-trend-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260415000"> </a>
+                  <a href="http://snomed.info/id/260415000">260415000</a>
+                </td>
+                <td>Not detected (qualifier)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-268910001"> </a>
+                  <a href="http://snomed.info/id/268910001">268910001</a>
+                </td>
+                <td>Patient condition improved (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-359746009"> </a>
+                  <a href="http://snomed.info/id/359746009">359746009</a>
+                </td>
+                <td>Patient&#39;s condition stable (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-271299001"> </a>
+                  <a href="http://snomed.info/id/271299001">271299001</a>
+                </td>
+                <td>Patient&#39;s condition worsened (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-709137006"> </a>
+                  <a href="http://snomed.info/id/709137006">709137006</a>
+                </td>
+                <td>Patient condition undetermined (finding)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs"/>
+        <version value="0.1.0-test"/>
+        <name value="HepatitisConditionStatusTrendVS"/>
+        <title value="Condition Status Trend Value Set"/>
+        <status value="active"/>
+        <date value="2022-03-09T11:22:06+00:00"/>
+        <publisher value="Hepainformatics"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hepainformatics.hepafhir.org"/>
+          </telecom>
+        </contact>
+        <description value="How patient&#39;s given disease, condition, or ability is trending."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3407fea4-100e-4e66-9678-3ce46116b1c5"/>
+          <timestamp value="2022-03-09T11:22:16+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260415000"/>
+            <display value="Not detected (qualifier)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="268910001"/>
+            <display value="Patient condition improved (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="359746009"/>
+            <display value="Patient&#39;s condition stable (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271299001"/>
+            <display value="Patient&#39;s condition worsened (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="709137006"/>
+            <display value="Patient condition undetermined (finding)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="hepatitis-disease-status-evidence-type-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-363679005"> </a>
+                  <a href="http://snomed.info/id/363679005">363679005</a>
+                </td>
+                <td>Imaging (procedure)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-252416005"> </a>
+                  <a href="http://snomed.info/id/252416005">252416005</a>
+                </td>
+                <td>Histopathology test (procedure)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-711015009"> </a>
+                  <a href="http://snomed.info/id/711015009">711015009</a>
+                </td>
+                <td>Assessment of symptom control (procedure)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-5880005"> </a>
+                  <a href="http://snomed.info/id/5880005">5880005</a>
+                </td>
+                <td>Physical examination procedure (procedure)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-386344002"> </a>
+                  <a href="http://snomed.info/id/386344002">386344002</a>
+                </td>
+                <td>Laboratory data interpretation (procedure)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs"/>
+        <version value="0.1.0-test"/>
+        <name value="HepatitisDiseaseStatusEvidenceTypeVS"/>
+        <title value="hepainformatics Disease Status Evidence Type Value Set"/>
+        <status value="active"/>
+        <date value="2022-03-09T11:22:06+00:00"/>
+        <publisher value="Hepainformatics"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hepainformatics.hepafhir.org"/>
+          </telecom>
+        </contact>
+        <description value="The type of evidence backing up the clinical determination of hepatitis progression."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:58e721d8-4e8e-4822-983e-c57593ddddab"/>
+          <timestamp value="2022-03-09T11:22:19+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="363679005"/>
+            <display value="Imaging (procedure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="252416005"/>
+            <display value="Histopathology test (procedure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="711015009"/>
+            <display value="Assessment of symptom control (procedure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5880005"/>
+            <display value="Physical examination procedure (procedure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386344002"/>
+            <display value="Laboratory data interpretation (procedure)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>
