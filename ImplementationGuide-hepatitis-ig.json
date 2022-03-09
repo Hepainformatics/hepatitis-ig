@@ -11,7 +11,7 @@
   "title": "Hepatitis B and C Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-09-25T01:40:41+00:00",
+  "date": "2022-03-09T11:22:06+00:00",
   "publisher": "Hepainformatics",
   "contact": [
     {
@@ -326,6 +326,98 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hepatitis-condition-status-trend-vs"
+        },
+        "name": "Condition Status Trend Value Set",
+        "description": "How patient's given disease, condition, or ability is trending."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hepainformatics-hepatitis-case"
+        },
+        "name": "Hepatitis Patient, suspected or confirmed",
+        "description": "Demographics of patients suspected or confirmed to have Hepatitis B or C"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hepatitis-disease-status-evidence-type-vs"
+        },
+        "name": "hepainformatics Disease Status Evidence Type Value Set",
+        "description": "The type of evidence backing up the clinical determination of hepatitis progression."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/myquestionnaire"
+        },
+        "name": "VIRAL HEPATITIS CASE REPORT FORM"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hepainformatics-hepatitis-care"
+        },
+        "name": "Hepatitis Care Data",
+        "description": "Visit information for patients suspected or confirmed to have Hepatitis B or C"
       }
     ],
     "page": {
