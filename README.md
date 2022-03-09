@@ -6,7 +6,7 @@ This is the implementation guide (draft) for the national hepatitis program of t
 ### Publication
 This ImplementationGuide is published in the following locations:
 
-Continuous Build: __http://build.fhir.org/ig/Hepainformatics/hepatitis-ig/branches/main/index.html__  
+Continuous Build: __http://Hepainformatics.github.io/hepatitis-ig/branches/main/index.html__  
 Canonical / permanent URL: 
 <br> </br>
 
