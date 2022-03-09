@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "HepatitisCare"];
   fhir:StructureDefinition.title [ fhir:value "Hepatitis Care Data"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-03-09T11:22:06+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-03-09T11:49:10+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Hepainformatics"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

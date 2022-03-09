@@ -3,7 +3,7 @@
 
 err = 9, warn = 5, info = 0
 IG Publisher Version: 1.1.111
-Generated Wed Mar 09 11:22:25 UTC 2022. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://hepainformatics.org/fhir/hepatitis-ig)
+Generated Wed Mar 09 11:49:33 UTC 2022. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://hepainformatics.org/fhir/hepatitis-ig)
  Build Errors : 1 / 2 / 0
  /github/workspace/fsh-generated/resources/Questionnaire-myquestionnaire : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care : 2 / 1 / 1
