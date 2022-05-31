@@ -1,11 +1,12 @@
 ﻿HepatitisIG : Validation Results
 =========================================
 
-err = 9, warn = 5, info = 0
-IG Publisher Version: 1.1.111
-Generated Wed Mar 09 11:49:33 UTC 2022. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://hepainformatics.org/fhir/hepatitis-ig)
+err = 12, warn = 6, info = 0
+IG Publisher Version: 1.1.121
+Generated Tue May 31 09:04:19 UTC 2022. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://hepainformatics.org/fhir/hepatitis-ig)
  Build Errors : 1 / 2 / 0
  /github/workspace/fsh-generated/resources/Questionnaire-myquestionnaire : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ViralHepatitisModel : 3 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-case : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-hepatitis-condition-status-trend-vs : 2 / 0 / 1
@@ -15,10 +16,15 @@ Generated Wed Mar 09 11:49:33 UTC 2022. FHIR version 4.0.1 for hepainformatics.f
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be hepainformatics.fhir.hepatitis-ig
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/myquestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/Questionnaire-myquestionnaire-form.html: unexpected non-end of element null::div  at line 224 column 131
+ERROR: /github/workspace/output/Questionnaire-myquestionnaire-form.html: Unable to read attribute on <div> at line 215 column 71
 == fsh-generated/resources/Questionnaire-myquestionnaire.json ==
 WARNING: Questionnaire/myquestionnaire: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/myquestionnaire: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
+== fsh-generated/resources/StructureDefinition-ViralHepatitisModel.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-ViralHepatitisModel.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/ViralHepatitisModel) does not match the URL (http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel)
+ERROR: StructureDefinition/ViralHepatitisModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/ViralHepatitisModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-ViralHepatitisModel: URL Mismatch http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/ViralHepatitisModel vs http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel
 == fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care.json ==
 ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/hepainformatics-hepatitis-care) does not match the URL (http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care)
 WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care'): The Implementation Guide contains no examples for this profile

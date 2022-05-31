@@ -20,7 +20,7 @@
   "name": "HepatitisCase",
   "title": "Hepatitis Patient, suspected or confirmed",
   "status": "draft",
-  "date": "2022-03-09T11:49:10+00:00",
+  "date": "2022-05-31T09:03:59+00:00",
   "publisher": "Hepainformatics",
   "contact": [
     {
@@ -1356,7 +1356,8 @@
             "severity": "error",
             "human": "Stage SHALL have summary or assessment",
             "expression": "summary.exists() or assessment.exists()",
-            "xpath": "exists(f:summary) or exists(f:assessment)"
+            "xpath": "exists(f:summary) or exists(f:assessment)",
+            "source": "http://hl7.org/fhir/StructureDefinition/Condition"
           },
           {
             "key": "ele-1",
@@ -1685,7 +1686,8 @@
             "severity": "error",
             "human": "evidence SHALL have code or details",
             "expression": "code.exists() or detail.exists()",
-            "xpath": "exists(f:code) or exists(f:detail)"
+            "xpath": "exists(f:code) or exists(f:detail)",
+            "source": "http://hl7.org/fhir/StructureDefinition/Condition"
           },
           {
             "key": "ele-1",

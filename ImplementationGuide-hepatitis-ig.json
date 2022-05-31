@@ -11,7 +11,7 @@
   "title": "Hepatitis B and C Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-03-09T11:49:10+00:00",
+  "date": "2022-05-31T09:03:59+00:00",
   "publisher": "Hepainformatics",
   "contact": [
     {
@@ -38,6 +38,14 @@
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    }
   ],
   "definition": {
     "extension": [
@@ -352,9 +360,35 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ViralHepatitisModel"
+        },
+        "name": "Viral Hepatitis Logical Model Philippines",
+        "description": "Viral Hepatitis information model"
+      },
       {
         "extension": [
           {
@@ -385,19 +419,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/hepatitis-disease-status-evidence-type-vs"
-        },
-        "name": "hepainformatics Disease Status Evidence Type Value Set",
-        "description": "The type of evidence backing up the clinical determination of hepatitis progression."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Questionnaire"
           }
         ],
@@ -418,6 +439,19 @@
         },
         "name": "Hepatitis Care Data",
         "description": "Visit information for patients suspected or confirmed to have Hepatitis B or C"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hepatitis-disease-status-evidence-type-vs"
+        },
+        "name": "hepainformatics Disease Status Evidence Type Value Set",
+        "description": "The type of evidence backing up the clinical determination of hepatitis progression."
       }
     ],
     "page": {

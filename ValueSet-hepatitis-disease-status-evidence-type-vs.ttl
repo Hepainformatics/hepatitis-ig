@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "HepatitisDiseaseStatusEvidenceTypeVS"];
   fhir:ValueSet.title [ fhir:value "hepainformatics Disease Status Evidence Type Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-03-09T11:49:10+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-05-31T09:03:59+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Hepainformatics"];
   fhir:ValueSet.contact [
      fhir:index 0;

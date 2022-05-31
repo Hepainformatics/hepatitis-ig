@@ -1,5 +1,12 @@
 [
   {
+    "id": "ViralHepatitisModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel",
+    "version": "0.1.0-test",
+    "name": "ViralHepatitisModel"
+  },
+  {
     "id": "hepainformatics-hepatitis-care",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care",

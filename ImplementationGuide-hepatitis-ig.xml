@@ -12,7 +12,7 @@
   <title value="Hepatitis B and C Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-03-09T11:49:10+00:00"/>
+  <date value="2022-05-31T09:03:59+00:00"/>
   <publisher value="Hepainformatics"/>
   <contact>
     <telecom>
@@ -30,6 +30,11 @@
   <packageId value="hepainformatics.fhir.hepatitis-ig"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -223,6 +228,24 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ViralHepatitisModel"/>
+      </reference>
+      <name value="Viral Hepatitis Logical Model Philippines"/>
+      <description value="Viral Hepatitis information model"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
@@ -231,7 +254,7 @@
         <reference value="ValueSet/hepatitis-condition-status-trend-vs"/>
       </reference>
       <name value="Condition Status Trend Value Set"/>
-      <description value="How patient&#39;s given disease, condition, or ability is trending."/>
+      <description value="How patient's given disease, condition, or ability is trending."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -242,16 +265,6 @@
       </reference>
       <name value="Hepatitis Patient, suspected or confirmed"/>
       <description value="Demographics of patients suspected or confirmed to have Hepatitis B or C"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/hepatitis-disease-status-evidence-type-vs"/>
-      </reference>
-      <name value="hepainformatics Disease Status Evidence Type Value Set"/>
-      <description value="The type of evidence backing up the clinical determination of hepatitis progression."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -271,6 +284,16 @@
       </reference>
       <name value="Hepatitis Care Data"/>
       <description value="Visit information for patients suspected or confirmed to have Hepatitis B or C"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hepatitis-disease-status-evidence-type-vs"/>
+      </reference>
+      <name value="hepainformatics Disease Status Evidence Type Value Set"/>
+      <description value="The type of evidence backing up the clinical determination of hepatitis progression."/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
