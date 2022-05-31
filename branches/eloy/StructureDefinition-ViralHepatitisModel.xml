@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ViralHepatitisModel"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel" title="Viral Hepatitis information model">ViralHepatitisModel</a><a name="ViralHepatitisModel"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Viral Hepatitis Logical Model Philippines</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.patient" title="The person that has hepatitis">patient</a><a name="ViralHepatitisModel.patient"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The person that has hepatitis</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.allergen" title="The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used">allergen</a><a name="ViralHepatitisModel.allergen"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The substance that the person is allergic to</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.clinicalStatus" title="The status of the hepatitis - if it is active or resolved">clinicalStatus</a><a name="ViralHepatitisModel.clinicalStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The status of the hepatitis infection - if it is active or resolved</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.verificationStatus" title="The verification status of the hepatitis - if it is confirmed or suspected or refuted">verificationStatus</a><a name="ViralHepatitisModel.verificationStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The verification status of the hepatitis - if it is confirmed or suspected or refuted</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.recordedDate" title="When the hepatitis was reported">recordedDate</a><a name="ViralHepatitisModel.recordedDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">When the hepatitis was reported</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.recorder" title="Who recorded the hepatitis">recorder</a><a name="ViralHepatitisModel.recorder"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Who recorded the hepatitis</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.asserter" title=" who asserted or provided the hepatitis information e.g. the patient, a relative, a care giver...">asserter</a><a name="ViralHepatitisModel.asserter"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>()</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Who asserted the hepatitis</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.reactions" title="known past reactions to the allergen">reactions</a><a name="ViralHepatitisModel.reactions"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">known past reactions to the allergen</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.reactions.manifestation" title="How the reaction manifested itself, e.g. rash, breathing difficulty...">manifestation</a><a name="ViralHepatitisModel.reactions.manifestation"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">How the reaction manifested itself</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.reactions.certitude" title="How certain we are that the cause of the reaction was the allergen indicated">certitude</a><a name="ViralHepatitisModel.reactions.certitude"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">How certain we are that the cause of the reaction was the allergen indicated</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.reactions.exposure" title="The exposure route to the substance">exposure</a><a name="ViralHepatitisModel.reactions.exposure"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The exposure route to the substance</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.reactions.note" title="Additional text note about the allergic reaction">note</a><a name="ViralHepatitisModel.reactions.note"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Additional text note about the allergic reaction</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel"/>
+  <version value="0.1.0-test"/>
+  <name value="ViralHepatitisModel"/>
+  <title value="Viral Hepatitis Logical Model Philippines"/>
+  <status value="active"/>
+  <date value="2022-05-31T09:03:59+00:00"/>
+  <publisher value="Hepainformatics"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hepainformatics.hepafhir.org"/>
+    </telecom>
+  </contact>
+  <description value="Viral Hepatitis information model"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element id="ViralHepatitisModel">
+      <path value="ViralHepatitisModel"/>
+      <short value="Viral Hepatitis Logical Model Philippines"/>
+      <definition value="Viral Hepatitis information model"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="ViralHepatitisModel.patient">
+      <path value="ViralHepatitisModel.patient"/>
+      <short value="The person that has hepatitis"/>
+      <definition value="The person that has hepatitis"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.patient"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.allergen">
+      <path value="ViralHepatitisModel.allergen"/>
+      <short value="The substance that the person is allergic to"/>
+      <definition value="The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.allergen"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.clinicalStatus">
+      <path value="ViralHepatitisModel.clinicalStatus"/>
+      <short value="The status of the hepatitis infection - if it is active or resolved"/>
+      <definition value="The status of the hepatitis - if it is active or resolved"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.clinicalStatus"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.verificationStatus">
+      <path value="ViralHepatitisModel.verificationStatus"/>
+      <short value="The verification status of the hepatitis - if it is confirmed or suspected or refuted"/>
+      <definition value="The verification status of the hepatitis - if it is confirmed or suspected or refuted"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.verificationStatus"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.recordedDate">
+      <path value="ViralHepatitisModel.recordedDate"/>
+      <short value="When the hepatitis was reported"/>
+      <definition value="When the hepatitis was reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.recordedDate"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.recorder">
+      <path value="ViralHepatitisModel.recorder"/>
+      <short value="Who recorded the hepatitis"/>
+      <definition value="Who recorded the hepatitis"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.recorder"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.asserter">
+      <path value="ViralHepatitisModel.asserter"/>
+      <short value="Who asserted the hepatitis"/>
+      <definition value=" who asserted or provided the hepatitis information e.g. the patient, a relative, a care giver..."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.asserter"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions">
+      <path value="ViralHepatitisModel.reactions"/>
+      <short value="known past reactions to the allergen"/>
+      <definition value="known past reactions to the allergen"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.reactions"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.manifestation">
+      <path value="ViralHepatitisModel.reactions.manifestation"/>
+      <short value="How the reaction manifested itself"/>
+      <definition value="How the reaction manifested itself, e.g. rash, breathing difficulty..."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.reactions.manifestation"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.certitude">
+      <path value="ViralHepatitisModel.reactions.certitude"/>
+      <short value="How certain we are that the cause of the reaction was the allergen indicated"/>
+      <definition value="How certain we are that the cause of the reaction was the allergen indicated"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.reactions.certitude"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.exposure">
+      <path value="ViralHepatitisModel.reactions.exposure"/>
+      <short value="The exposure route to the substance"/>
+      <definition value="The exposure route to the substance"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.reactions.exposure"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.note">
+      <path value="ViralHepatitisModel.reactions.note"/>
+      <short value="Additional text note about the allergic reaction"/>
+      <definition value="Additional text note about the allergic reaction"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.reactions.note"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="ViralHepatitisModel">
+      <path value="ViralHepatitisModel"/>
+      <short value="Viral Hepatitis Logical Model Philippines"/>
+      <definition value="Viral Hepatitis information model"/>
+    </element>
+    <element id="ViralHepatitisModel.patient">
+      <path value="ViralHepatitisModel.patient"/>
+      <short value="The person that has hepatitis"/>
+      <definition value="The person that has hepatitis"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.allergen">
+      <path value="ViralHepatitisModel.allergen"/>
+      <short value="The substance that the person is allergic to"/>
+      <definition value="The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.clinicalStatus">
+      <path value="ViralHepatitisModel.clinicalStatus"/>
+      <short value="The status of the hepatitis infection - if it is active or resolved"/>
+      <definition value="The status of the hepatitis - if it is active or resolved"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.verificationStatus">
+      <path value="ViralHepatitisModel.verificationStatus"/>
+      <short value="The verification status of the hepatitis - if it is confirmed or suspected or refuted"/>
+      <definition value="The verification status of the hepatitis - if it is confirmed or suspected or refuted"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.recordedDate">
+      <path value="ViralHepatitisModel.recordedDate"/>
+      <short value="When the hepatitis was reported"/>
+      <definition value="When the hepatitis was reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.recorder">
+      <path value="ViralHepatitisModel.recorder"/>
+      <short value="Who recorded the hepatitis"/>
+      <definition value="Who recorded the hepatitis"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.asserter">
+      <path value="ViralHepatitisModel.asserter"/>
+      <short value="Who asserted the hepatitis"/>
+      <definition value=" who asserted or provided the hepatitis information e.g. the patient, a relative, a care giver..."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions">
+      <path value="ViralHepatitisModel.reactions"/>
+      <short value="known past reactions to the allergen"/>
+      <definition value="known past reactions to the allergen"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.manifestation">
+      <path value="ViralHepatitisModel.reactions.manifestation"/>
+      <short value="How the reaction manifested itself"/>
+      <definition value="How the reaction manifested itself, e.g. rash, breathing difficulty..."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.certitude">
+      <path value="ViralHepatitisModel.reactions.certitude"/>
+      <short value="How certain we are that the cause of the reaction was the allergen indicated"/>
+      <definition value="How certain we are that the cause of the reaction was the allergen indicated"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.exposure">
+      <path value="ViralHepatitisModel.reactions.exposure"/>
+      <short value="The exposure route to the substance"/>
+      <definition value="The exposure route to the substance"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.reactions.note">
+      <path value="ViralHepatitisModel.reactions.note"/>
+      <short value="Additional text note about the allergic reaction"/>
+      <definition value="Additional text note about the allergic reaction"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

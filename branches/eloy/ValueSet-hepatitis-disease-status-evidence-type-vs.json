@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hepatitis-disease-status-evidence-type-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/363679005\">363679005</a></td><td>Imaging (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/252416005\">252416005</a></td><td>Histopathology test (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/711015009\">711015009</a></td><td>Assessment of symptom control (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/5880005\">5880005</a></td><td>Physical examination procedure (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/386344002\">386344002</a></td><td>Laboratory data interpretation (procedure)</td></tr></table></li></ul></div>"
+  },
+  "url": "http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs",
+  "version": "0.1.0-test",
+  "name": "HepatitisDiseaseStatusEvidenceTypeVS",
+  "title": "hepainformatics Disease Status Evidence Type Value Set",
+  "status": "active",
+  "date": "2022-05-31T09:03:59+00:00",
+  "publisher": "Hepainformatics",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hepainformatics.hepafhir.org"
+        }
+      ]
+    }
+  ],
+  "description": "The type of evidence backing up the clinical determination of hepatitis progression.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "363679005",
+            "display": "Imaging (procedure)"
+          },
+          {
+            "code": "252416005",
+            "display": "Histopathology test (procedure)"
+          },
+          {
+            "code": "711015009",
+            "display": "Assessment of symptom control (procedure)"
+          },
+          {
+            "code": "5880005",
+            "display": "Physical examination procedure (procedure)"
+          },
+          {
+            "code": "386344002",
+            "display": "Laboratory data interpretation (procedure)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ViralHepatitisModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel",
+    "version": "0.1.0-test",
+    "name": "ViralHepatitisModel"
+  },
+  {
+    "id": "hepainformatics-hepatitis-care",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care",
+    "version": "0.1.0-test",
+    "name": "HepatitisCare"
+  },
+  {
+    "id": "hepainformatics-hepatitis-case",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-case",
+    "version": "0.1.0-test",
+    "name": "HepatitisCase"
+  },
+  {
+    "id": "hepatitis-condition-status-trend-vs",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs",
+    "version": "0.1.0-test",
+    "name": "HepatitisConditionStatusTrendVS"
+  },
+  {
+    "id": "hepatitis-disease-status-evidence-type-vs",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs",
+    "version": "0.1.0-test",
+    "name": "HepatitisDiseaseStatusEvidenceTypeVS"
+  },
+  {
+    "id": "hepatitis-ig",
+    "type": "ImplementationGuide",
+    "url": "http://hepainformatics.org/fhir/hepatitis-ig/ImplementationGuide/hepatitis-ig",
+    "version": "0.1.0-test",
+    "name": "HepatitisIG"
+  },
+  {
+    "id": "myquestionnaire",
+    "type": "Questionnaire",
+    "url": "http://hepainformatics.org/fhir/hepatitis-ig/Questionnaire/myquestionnaire",
+    "version": "0.1.0-test",
+    "name": "myquestionnaire"
+  }
+]

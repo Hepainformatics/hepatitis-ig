@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hepatitis-disease-status-evidence-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/363679005">363679005</a></td><td>Imaging (procedure)</td></tr><tr><td><a href="http://snomed.info/id/252416005">252416005</a></td><td>Histopathology test (procedure)</td></tr><tr><td><a href="http://snomed.info/id/711015009">711015009</a></td><td>Assessment of symptom control (procedure)</td></tr><tr><td><a href="http://snomed.info/id/5880005">5880005</a></td><td>Physical examination procedure (procedure)</td></tr><tr><td><a href="http://snomed.info/id/386344002">386344002</a></td><td>Laboratory data interpretation (procedure)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs"/>
+  <version value="0.1.0-test"/>
+  <name value="HepatitisDiseaseStatusEvidenceTypeVS"/>
+  <title value="hepainformatics Disease Status Evidence Type Value Set"/>
+  <status value="active"/>
+  <date value="2022-05-31T09:03:59+00:00"/>
+  <publisher value="Hepainformatics"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hepainformatics.hepafhir.org"/>
+    </telecom>
+  </contact>
+  <description value="The type of evidence backing up the clinical determination of hepatitis progression."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="363679005"/>
+        <display value="Imaging (procedure)"/>
+      </concept>
+      <concept>
+        <code value="252416005"/>
+        <display value="Histopathology test (procedure)"/>
+      </concept>
+      <concept>
+        <code value="711015009"/>
+        <display value="Assessment of symptom control (procedure)"/>
+      </concept>
+      <concept>
+        <code value="5880005"/>
+        <display value="Physical examination procedure (procedure)"/>
+      </concept>
+      <concept>
+        <code value="386344002"/>
+        <display value="Laboratory data interpretation (procedure)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

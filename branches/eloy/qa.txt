@@ -1,0 +1,42 @@
+﻿HepatitisIG : Validation Results
+=========================================
+
+err = 12, warn = 6, info = 0
+IG Publisher Version: 1.1.121
+Generated Tue May 31 09:04:19 UTC 2022. FHIR version 4.0.1 for hepainformatics.fhir.hepatitis-ig#0.1.0-test (canonical = http://hepainformatics.org/fhir/hepatitis-ig)
+ Build Errors : 1 / 2 / 0
+ /github/workspace/fsh-generated/resources/Questionnaire-myquestionnaire : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ViralHepatitisModel : 3 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-case : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hepatitis-condition-status-trend-vs : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hepatitis-disease-status-evidence-type-vs : 2 / 0 / 1
+ /github/workspace/input/myig : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be hepainformatics.fhir.hepatitis-ig
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/myquestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Questionnaire-myquestionnaire-form.html: Unable to read attribute on <div> at line 215 column 71
+== fsh-generated/resources/Questionnaire-myquestionnaire.json ==
+WARNING: Questionnaire/myquestionnaire: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/myquestionnaire: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
+== fsh-generated/resources/StructureDefinition-ViralHepatitisModel.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-ViralHepatitisModel.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/ViralHepatitisModel) does not match the URL (http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel)
+ERROR: StructureDefinition/ViralHepatitisModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/ViralHepatitisModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-ViralHepatitisModel: URL Mismatch http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/ViralHepatitisModel vs http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel
+== fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/hepainformatics-hepatitis-care) does not match the URL (http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care)
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care'): The Implementation Guide contains no examples for this profile
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-care: URL Mismatch http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/hepainformatics-hepatitis-care vs http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-care
+== fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-case.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-case'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-case.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/hepainformatics-hepatitis-case) does not match the URL (http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-case)
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-case'): The Implementation Guide contains no examples for this profile
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-hepainformatics-hepatitis-case: URL Mismatch http://hepainformatics.org/fhir/hepatitis-ig/StructureDefinition/hepainformatics-hepatitis-case vs http://example.com/fhir/example/StructureDefinition/hepainformatics-hepatitis-case
+== fsh-generated/resources/ValueSet-hepatitis-condition-status-trend-vs.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-hepatitis-condition-status-trend-vs.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/ValueSet/hepatitis-condition-status-trend-vs) does not match the URL (http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs)
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-hepatitis-condition-status-trend-vs: URL Mismatch http://hepainformatics.org/fhir/hepatitis-ig/ValueSet/hepatitis-condition-status-trend-vs vs http://example.com/fhir/example/ValueSet/hepatitis-condition-status-trend-vs
+== fsh-generated/resources/ValueSet-hepatitis-disease-status-evidence-type-vs.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-hepatitis-disease-status-evidence-type-vs.json - the canonical URL (http://hepainformatics.org/fhir/hepatitis-ig/ValueSet/hepatitis-disease-status-evidence-type-vs) does not match the URL (http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs)
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-hepatitis-disease-status-evidence-type-vs: URL Mismatch http://hepainformatics.org/fhir/hepatitis-ig/ValueSet/hepatitis-disease-status-evidence-type-vs vs http://example.com/fhir/example/ValueSet/hepatitis-disease-status-evidence-type-vs
+== input/myig.xml ==
