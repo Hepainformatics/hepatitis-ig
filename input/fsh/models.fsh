@@ -1,0 +1,16 @@
+Logical: ViralHepatitisModel
+Title: "Viral Hepatitis Logical Model Philippines"
+Description:    "Viral Hepatitis information model"
+
+* patient 1..1 Reference "The person that has hepatitis" "The person that has hepatitis"
+* allergen 1..1 CodeableConcept "The substance that the person is allergic to" "The substance - from a list of substances - that the person is allergic to. It is possible to use free text but for the products indicated, a code must be used"
+* clinicalStatus 1..1 CodeableConcept "The status of the hepatitis infection - if it is active or resolved" "The status of the hepatitis - if it is active or resolved"
+* verificationStatus 1..1 CodeableConcept "The verification status of the hepatitis - if it is confirmed or suspected or refuted" "The verification status of the hepatitis - if it is confirmed or suspected or refuted"
+* recordedDate 0..1 dateTime "When the hepatitis was reported" "When the hepatitis was reported"
+* recorder 0..1 Reference "Who recorded the hepatitis" "Who recorded the hepatitis"
+* asserter 0..1 Reference "Who asserted the hepatitis" " who asserted or provided the hepatitis information e.g. the patient, a relative, a care giver..."
+* reactions 0..1 BackboneElement "known past reactions to the allergen" "known past reactions to the allergen"
+  * manifestation 0..1 CodeableConcept "How the reaction manifested itself"  "How the reaction manifested itself, e.g. rash, breathing difficulty..."
+  * certitude 0..1 CodeableConcept "How certain we are that the cause of the reaction was the allergen indicated" "How certain we are that the cause of the reaction was the allergen indicated"
+  * exposure 0..1 CodeableConcept "The exposure route to the substance" "The exposure route to the substance"
+  * note 0..1 string "Additional text note about the allergic reaction" "Additional text note about the allergic reaction"
